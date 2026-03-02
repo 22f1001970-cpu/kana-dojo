@@ -26,7 +26,7 @@ module.exports = {
       'starter task',
       'javascript',
       'documentation',
-      'typescript'
+      'typescript',
     ],
     // Label for filtering community issues
     community: 'community',
@@ -86,8 +86,8 @@ module.exports = {
     thanks: 'ありがとうございます! 🙏',
     firstTimeContributor: {
       separator: '---',
-      title: '🌟 **Welcome to KanaDojo!**',
-      body: "This appears to be your first contribution—that's awesome! We're thrilled to have you here. If you have any questions, don't hesitate to ask.",
+      title: '🎴🗻 **Welcome to KanaDojo!**',
+      body: "This appears to be your first contribution—that's awesome! We're thrilled to have you here. If you have any questions, don't hesitate to ask. 🏯",
     },
   },
 
@@ -215,7 +215,7 @@ module.exports = {
     // Shared constants and helpers
     common: {
       titleTemplate:
-        '[Good First Issue]: Add new {issueType} - Beginner-Friendly Contribution (good-first-issue, <1 min)',
+        '[Good First Issue] {emoji} Add new {issueType} - Beginner-Friendly Contribution (good-first-issue, <1 min)',
       difficulty: 'Easy (good first issue!)',
       instructionsHeader: '### 📝 Instructions',
       footer:
